@@ -11,11 +11,11 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className='bg-base-100'>
+    <div>
       <Head>
         <title>MSN</title>
       </Head>
-      <NavBar></NavBar>/
+      <NavBar></NavBar>
       <Banner></Banner>
       <AboutMe></AboutMe>
       <Projects></Projects>

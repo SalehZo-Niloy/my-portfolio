@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Projects = () => {
@@ -13,7 +14,7 @@ const Projects = () => {
                         <div className="card-body p-4">
                             <h2 className="card-title text-primary text-2xl font-bold">Guitar Square</h2>
                             <p>A second-hand guitar reselling site</p>
-                            <button className="btn btn-primary text-black mt-2">View project details</button>
+                            <Link href='/projects/project1' className="btn btn-primary text-black mt-2">View project details</Link>
                         </div>
                     </div>
                 </div>
@@ -25,7 +26,7 @@ const Projects = () => {
                         <div className="card-body p-4">
                             <h2 className="card-title text-primary text-2xl font-bold">NVIS</h2>
                             <p>A visa and immigration services site</p>
-                            <button className="btn btn-primary text-black mt-2">View project details</button>
+                            <Link href='/projects/project2' className="btn btn-primary text-black mt-2">View project details</Link>
                         </div>
                     </div>
                 </div>
@@ -37,7 +38,7 @@ const Projects = () => {
                         <div className="card-body p-4">
                             <h2 className="card-title text-primary text-2xl font-bold">Into-Dev</h2>
                             <p>An online educational course's site</p>
-                            <button className="btn btn-primary text-black mt-2">View project details</button>
+                            <Link href='/projects/project3' className="btn btn-primary text-black mt-2">View project details</Link >
                         </div>
                     </div>
                 </div>
