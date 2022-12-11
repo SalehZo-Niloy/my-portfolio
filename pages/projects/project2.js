@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import React from 'react';
 import Footer from '../../Components/Footer/Footer';
 import NavBar from '../../Components/NavBar/NavBar';
@@ -5,6 +6,9 @@ import NavBar from '../../Components/NavBar/NavBar';
 const project2 = () => {
     return (
         <div>
+            <Head>
+                <title>NVIS-MSN</title>
+            </Head>
             <NavBar></NavBar>
             <h1 className='text-2xl font-semibold text-center mt-8 text-primary'>Project Name: <span className='text-accent'>NVIS - Visa and Immigration Services</span></h1>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-8 w-11/12 mx-auto'>

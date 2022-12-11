@@ -6,6 +6,7 @@ const NavBar = () => {
     const menu = <>
         <Link href='/' className='text-xl font-semibold text-neutral hover:text-black'>Home</Link>
         <Link href='/aboutMe' className='text-xl font-semibold text-neutral hover:text-black ml-0 lg:ml-4'>About Me</Link>
+        <Link href='/blogs' className='text-xl font-semibold text-neutral hover:text-black ml-0 lg:ml-4'>Blogs</Link>
     </>
 
     return (
@@ -20,7 +21,7 @@ const NavBar = () => {
 
                     </ul>
                 </div>
-                <a className="btn btn-ghost normal-case text-3xl font-bold text-neutral">M<span className='text-secondary'>S</span>N</a>
+                <Link href='/' className="btn btn-ghost normal-case text-3xl font-bold text-neutral">M<span className='text-secondary'>S</span>N</Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-4">
