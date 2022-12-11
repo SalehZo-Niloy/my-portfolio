@@ -62,9 +62,9 @@ const project3 = () => {
                 <div className='flex flex-col gap-8'>
                     <h3 className='text-xl font-semibold text-primary'>Site's Screenshots:</h3>
 
-                    <img src="/project3-images/img1.png" alt="" className='w-full rounded-lg shadow-primary shadow-lg' />
-                    <img src="/project3-images/img2.png" alt="" className='w-full rounded-lg shadow-primary shadow-lg' />
-                    <img src="/project3-images/img3.png" alt="" className='w-full rounded-lg shadow-primary shadow-lg' />
+                    <img src="/project3-images/img1.PNG" alt="" className='w-full rounded-lg shadow-primary shadow-lg' />
+                    <img src="/project3-images/img2.PNG" alt="" className='w-full rounded-lg shadow-primary shadow-lg' />
+                    <img src="/project3-images/img3.PNG" alt="" className='w-full rounded-lg shadow-primary shadow-lg' />
 
                 </div>
             </div>
