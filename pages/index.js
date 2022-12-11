@@ -15,12 +15,12 @@ export default function Home() {
       <Head>
         <title>MSN</title>
       </Head>
-      <NavBar></NavBar>
-      <Banner></Banner>
+      {/* <NavBar></NavBar>/ */}
+      {/* <Banner></Banner> */}
       <AboutMe></AboutMe>
-      <Projects></Projects>
-      <Skills></Skills>
-      <EmailMe></EmailMe>
+      {/* <Projects></Projects> */}
+      {/* <Skills></Skills> */}
+      {/* <EmailMe></EmailMe> */}
       <Footer></Footer>
     </div>
   )
