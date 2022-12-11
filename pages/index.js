@@ -18,8 +18,8 @@ export default function Home() {
       <NavBar></NavBar>
       <Banner></Banner>
       <AboutMe></AboutMe>
-      <Projects></Projects>
       <Skills></Skills>
+      <Projects></Projects>
       <EmailMe></EmailMe>
       <Footer></Footer>
     </div>
